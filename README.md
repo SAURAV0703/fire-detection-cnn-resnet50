@@ -29,15 +29,14 @@ This deep learning project detects fire in road surveillance imagery using Convo
 
 1. 📁 **Image Dataset Structure** (you must upload manually): 
    └─ `Train/`, `Vali/`, `Test/` directories, each with `Fire/` and `Non‑Fire/` sub‑folders.
+   
+    ⬇️
 
-
-  ⬇️
-
-2. 🧹 **ImageDataGenerator**  
+3. 🧹 **ImageDataGenerator**  
    - Rescales images (`1./255`)  
    - Streams batches from `Train/`, `Vali/`, and `Test/`
-
-  ⬇️
+     
+    ⬇️
 
 3. 🤖 **Model Training**  
    - `ResNet50V2` and `VGG19` (pretrained, frozen)  
@@ -46,14 +45,14 @@ This deep learning project detects fire in road surveillance imagery using Convo
      - `EarlyStopping`
      - `ReduceLROnPlateau`
      - `ModelCheckpoint`
-
-  ⬇️
+       
+    ⬇️
 
 4. 📊 **Evaluation & Visualization**  
    - Accuracy & loss plots  
    - Confusion matrix and classification report
-
-  ⬇️
+     
+    ⬇️
 
 5. 💾 **(Optional)** Save best model weights as `.keras`  
    *(Paths/code included but files not uploaded in this repo)*
